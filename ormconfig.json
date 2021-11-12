@@ -1,0 +1,14 @@
+[{
+  "name": "default",
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "postgres",
+  "database": "flexuc",
+  "entities": ["./src/domain/entities/*.ts"],
+  "migrations": ["./src/domain/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/domain/migrations/"
+  }
+}]
